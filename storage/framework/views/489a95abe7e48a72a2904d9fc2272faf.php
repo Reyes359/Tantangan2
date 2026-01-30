@@ -16,4 +16,4 @@
       </ul>
     </div>
   </div>
-</nav><?php /**PATH C:\Users\u\Documents\Materi_Laravel\resources\views/layouts/navbar.blade.php ENDPATH**/ ?>
+</nav>  <?php /**PATH C:\Users\u\Documents\Materi_Laravel\resources\views/layouts/navbar.blade.php ENDPATH**/ ?>

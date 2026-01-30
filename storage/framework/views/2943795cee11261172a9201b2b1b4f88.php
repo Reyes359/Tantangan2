@@ -24,10 +24,7 @@
                     <input type="text" name="nama_jurusan" class="form-control" value="<?php echo e(old('nama_jurusan', $jurusan->nama_jurusan)); ?>" required>
                 </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Deskripsi</label>
-                    <textarea name="deskripsi" class="form-control" rows="3"><?php echo e(old('deskripsi', $jurusan->deskripsi)); ?></textarea>
-                </div>
+                
 
                 <button class="btn btn-primary">Perbarui</button>
                 <a href="<?php echo e(route('jurusan.index')); ?>" class="btn btn-secondary">Batal</a>
@@ -36,7 +33,6 @@
     </div>
 </div>
 <?php $__env->stopSection(); ?>
-
 
 <?php $__env->startSection('content'); ?>
 <div class="container">
@@ -98,5 +94,4 @@ unset($__errorArgs, $__bag); ?>
 </div>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 <?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\u\Documents\Materi_Laravel\resources\views/jurusan/edit.blade.php ENDPATH**/ ?>

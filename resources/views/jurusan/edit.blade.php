@@ -24,10 +24,7 @@
                     <input type="text" name="nama_jurusan" class="form-control" value="{{ old('nama_jurusan', $jurusan->nama_jurusan) }}" required>
                 </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Deskripsi</label>
-                    <textarea name="deskripsi" class="form-control" rows="3">{{ old('deskripsi', $jurusan->deskripsi) }}</textarea>
-                </div>
+                
 
                 <button class="btn btn-primary">Perbarui</button>
                 <a href="{{ route('jurusan.index') }}" class="btn btn-secondary">Batal</a>
@@ -36,7 +33,6 @@
     </div>
 </div>
 @endsection
-@extends('layouts.app')
 
 @section('content')
 <div class="container">
